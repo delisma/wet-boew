@@ -19,3 +19,11 @@
 .col-md-auto {
 	width: auto;
 }
+.checkbox-inline,
+.radio-inline {
+	display: inline-block;
+}
+.checkbox-inline + .checkbox-inline,
+.radio-inline + .radio-inline {
+	margin-left: 10px;
+}

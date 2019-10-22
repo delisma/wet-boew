@@ -650,6 +650,25 @@ fieldset {
 		}
 	}
 }
+ul.form-group {
+	list-style-type: none;
+	padding-left: 0;
+}
+.form-inline {
+	margin-top: 10px;
+}
+.checkbox-inline,
+.radio-inline {
+	display: list-item;
+}
+.checkbox-inline label,
+.radio-inline label {
+	font-weight: normal;
+}
+.checkbox-inline + .checkbox-inline,
+.radio-inline + .radio-inline {
+	margin-left: 0;
+}
 
 /*
  *	Pagination
